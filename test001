@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쓱싹 | 사무실 정기청소 전문</title>
+    <meta name="description" content="신뢰할 수 있는 사무실 정기청소 서비스, 쓱싹. 20평 이상 사무실 전문 관리, 지금 무료 견적을 받아보세요.">
+    
+    <!-- Google Fonts: Pretendard (using CDN or fallback to Noto Sans KR) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="ph-fill ph-sparkle"></i> 쓱싹
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#features">서비스 소개</a></li>
+                    <li><a href="#reviews">고객 후기</a></li>
+                    <li><a href="#pricing">요금안내</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary sm-hidden">무료 견적 받기</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="메뉴 열기">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu">
+            <button class="close-menu-btn" aria-label="메뉴 닫기">
+                <i class="ph ph-x"></i>
+            </button>
+            <ul class="mobile-nav-list">
+                <li><a href="#features">서비스 소개</a></li>
+                <li><a href="#reviews">고객 후기</a></li>
+                <li><a href="#pricing">요금안내</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block">무료 견적 받기</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <!-- Placeholder for high-quality office image -->
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1600" alt="Clean modern office" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">당신의 공간이 달라지는 시간,<br>쓱싹</h1>
+            <p class="hero-subtitle">검증된 전문가의 정기청소,<br>지금 바로 30초 만에 무료 견적을 받아보세요.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary btn-lg">무료 견적 받기</a>
+                <div class="trust-badge">
+                    <i class="ph-fill ph-shield-check"></i> 100% A/S 보장
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">왜 쓱싹인가요?</h2>
+                <p class="section-desc">단순한 청소를 넘어, 업무 효율을 높이는 쾌적한 환경을 만듭니다.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="ph-duotone ph-buildings"></i>
+                    </div>
+                    <h3>사무실 정기청소</h3>
+                    <p>매일 아침 상쾌한 사무실을 맞이하세요.<br>업무 효율을 높이는 쾌적함을 선물합니다.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> 바닥 먼지 제거 & 물걸레</li>
+                        <li><i class="ph-fill ph-check-circle"></i> 쓰레기 분리수거</li>
+                        <li><i class="ph-fill ph-check-circle"></i> 탕비실 정리 정돈</li>
+                    </ul>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="ph-duotone ph-door-open"></i>
+                    </div>
+                    <h3>사무실 입주 청소</h3>
+                    <p>새로운 시작을 완벽하게.<br>보이지 않는 곳까지 꼼꼼하게 살균 케어합니다.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> 창틀 & 유리창 집중 케어</li>
+                        <li><i class="ph-fill ph-check-circle"></i> 인테리어 공사 먼지 제거</li>
+                        <li><i class="ph-fill ph-check-circle"></i> 고온 스팀 살균</li>
+                    </ul>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i class="ph-duotone ph-arrow-u-up-left"></i>
+                    </div>
+                    <h3>사무실 퇴거 청소</h3>
+                    <p>마무리가 좋아야 다음이 있습니다.<br>까다로운 원상복구 기준을 완벽히 충족합니다.</p>
+                    <ul class="feature-list">
+                        <li><i class="ph-fill ph-check-circle"></i> 원상복구 기준 맞춤 청소</li>
+                        <li><i class="ph-fill ph-check-circle"></i> 바닥 왁스 박리 작업</li>
+                        <li><i class="ph-fill ph-check-circle"></i> 스티커/시트지 제거</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Signals -->
+    <section class="section trust-signals">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <i class="ph-fill ph-user-check"></i>
+                    <div class="trust-text">
+                        <h3>대표 직접 관리</h3>
+                        <p>하청 없이 모든 현장을 책임집니다.</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="ph-fill ph-chart-line-up"></i>
+                    <div class="trust-text">
+                        <h3>재계약률 96.7%</h3>
+                        <p>고객 만족도가 증명합니다.</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="ph-fill ph-shield-check"></i>
+                    <div class="trust-text">
+                        <h3>불만족 시 100% A/S</h3>
+                        <p>마음에 들 때까지 책임집니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">고객 후기</h2>
+                <p class="section-desc">이미 많은 사무실이 쓱싹과 함께 변화를 경험했습니다.</p>
+            </div>
+            
+            <div class="reviews-slider-container">
+                <div class="reviews-slider">
+                    <!-- Review 1 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                            <span class="review-date">2023.10.15</span>
+                        </div>
+                        <p class="review-text">"기존 업체가 불성실해서 바꿨는데, 정말 다릅니다. 특히 탕비실 정리가 감동이에요. 직원들도 너무 좋아합니다."</p>
+                        <div class="review-author">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=100&h=100" alt="Customer Profile" class="author-img">
+                            <div class="author-info">
+                                <strong>김민지 팀장</strong>
+                                <span>IT 스타트업 (30평)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Review 2 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                            <span class="review-date">2023.09.22</span>
+                        </div>
+                        <p class="review-text">"입주 청소 맡겼는데 새 사무실처럼 만들어주셨어요. 바닥 왁싱 퀄리티가 대박입니다. 정기청소도 바로 계약했네요."</p>
+                        <div class="review-author">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=100&h=100" alt="Customer Profile" class="author-img">
+                            <div class="author-info">
+                                <strong>박준형 대표</strong>
+                                <span>디자인 에이전시 (45평)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Review 3 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                            <span class="review-date">2023.11.02</span>
+                        </div>
+                        <p class="review-text">"상담부터 마무리까지 너무 친절하십니다. A/S 요청할 일도 없이 항상 완벽하게 해주시네요. 강력 추천합니다!"</p>
+                        <div class="review-author">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=100&h=100" alt="Customer Profile" class="author-img">
+                            <div class="author-info">
+                                <strong>이수진 매니저</strong>
+                                <span>공유 오피스 (100평)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">합리적인 가격 정책</h2>
+                <p class="section-desc">숨겨진 비용 없이 투명하게 공개합니다.</p>
+            </div>
+            <div class="pricing-table-wrapper">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>구분 (평수)</th>
+                            <th>주 1회 관리</th>
+                            <th>주 2회 관리</th>
+                            <th>주 3회 관리</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>~ 30평</td>
+                            <td>월 20만원~</td>
+                            <td>월 35만원~</td>
+                            <td>월 45만원~</td>
+                        </tr>
+                        <tr>
+                            <td>31평 ~ 50평</td>
+                            <td>월 30만원~</td>
+                            <td>월 50만원~</td>
+                            <td>월 65만원~</td>
+                        </tr>
+                        <tr>
+                            <td>51평 ~</td>
+                            <td colspan="3" class="highlight-cell">별도 견적 문의 (방문 무료 견적)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="pricing-note">* 부가세 별도 금액입니다. 사무실 환경에 따라 금액이 변동될 수 있습니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <h2 class="section-title text-center">자주 묻는 질문</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>세금계산서 발행이 가능한가요?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>네, 가능합니다. 쓱싹은 정식 사업자 등록 업체로, 모든 거래에 대해 100% 세금계산서 발행을 원칙으로 하고 있습니다.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>청소 시간은 언제인가요?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>고객님의 업무에 방해되지 않도록 주로 이른 아침(06:00~08:00)이나 업무 종료 후(19:00~)에 진행하며, 협의를 통해 조율 가능합니다.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>보안 문제는 어떻게 관리하나요?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>모든 현장 매니저는 신원 검증을 거친 정직원이며, 영업배상책임보험에 가입되어 있어 만일의 사태에도 완벽하게 대비하고 있습니다.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>일회성 청소도 가능한가요?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>네, 가능합니다. 입주 청소나 대청소 등 일회성 서비스도 전문 팀이 투입되어 진행해 드립니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <a href="#" class="logo footer-logo">
+                    <i class="ph-fill ph-sparkle"></i> 쓱싹
+                </a>
+                <p class="footer-desc">
+                    당신의 공간을 더 가치 있게 만듭니다.<br>
+                    지금 바로 쓱싹과 함께하세요.
+                </p>
+                <div class="contact-info">
+                    <p><i class="ph-fill ph-phone"></i> 1588-1234</p>
+                    <p><i class="ph-fill ph-envelope"></i> help@sseukssak.com</p>
+                    <p><i class="ph-fill ph-map-pin"></i> 서울특별시 강남구 테헤란로 123, 4층</p>
+                </div>
+            </div>
+            
+            <div class="footer-form-wrapper">
+                <h3>무료 견적 신청하기</h3>
+                <p>30초면 충분합니다. 확인 후 10분 내로 연락드립니다.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="회사명 / 담당자 성함" required>
+                    <input type="tel" placeholder="연락처 (010-0000-0000)" required>
+                    <select required>
+                        <option value="" disabled selected>청소 종류 선택</option>
+                        <option value="regular">사무실 정기청소</option>
+                        <option value="movein">입주 청소</option>
+                        <option value="moveout">퇴거 청소</option>
+                        <option value="other">기타 문의</option>
+                    </select>
+                    <input type="number" placeholder="대략적인 평수 (예: 30)" required>
+                    <button type="submit" class="btn btn-primary btn-block">견적 요청하기</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Sseuk-ssak Cleaning Service. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph-fill ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph-fill ph-blog"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>:root {
+    /* Color Palette */
+    --color-primary: #0F172A;
+    /* Deep Blue: Trust, Professional */
+    --color-primary-light: #1E293B;
+    --color-accent: #10B981;
+    /* Mint Green: Clean, Fresh */
+    --color-accent-dark: #059669;
+    --color-text-main: #1F2937;
+    /* Dark Grey for text */
+    --color-text-light: #6B7280;
+    /* Light Grey for subtitles */
+    --color-bg: #F8FAFC;
+    /* Off-white background */
+    --color-white: #FFFFFF;
+    --color-border: #E2E8F0;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    /* 8px */
+    --spacing-sm: 1rem;
+    /* 16px */
+    --spacing-md: 1.5rem;
+    /* 24px */
+    --spacing-lg: 3rem;
+    /* 48px */
+    --spacing-xl: 5rem;
+    /* 80px */
+
+    /* Layout */
+    --container-width: 1200px;
+    --header-height: 70px;
+    --border-radius: 12px;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    /* Fonts */
+    --font-main: 'Noto Sans KR', sans-serif;
+    /* Fallback to Noto if Pretendard fails, but generally safe */
+}
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--color-text-main);
+    background-color: var(--color-bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    line-height: 1.3;
+    word-break: keep-all;
+    /* Prevents awkward word breaks in Korean */
+}
+
+p,
+li,
+span {
+    word-break: keep-all;
+    /* Generally cleaner for Korean short text */
+    overflow-wrap: break-word;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Utilities */
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+
+.section {
+    padding: var(--spacing-xl) 0;
+}
+
+.section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--spacing-lg);
+}
+
+.section-title {
+    font-size: 2.25rem;
+    margin-bottom: var(--spacing-xs);
+    color: var(--color-primary);
+}
+
+.section-desc {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-accent-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-lg {
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+/* Header */
+.header {
+    height: var(--header-height);
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+}
+
+.header.scrolled {
+    box-shadow: var(--shadow-sm);
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo i {
+    color: var(--color-accent);
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-list a {
+    font-weight: 500;
+    color: var(--color-primary-light);
+}
+
+.nav-list a:hover {
+    color: var(--color-accent);
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    /* Full viewport height */
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding-top: var(--header-height);
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.6) 100%);
+}
+
+.hero-content {
+    position: relative;
+    color: var(--color-white);
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #E2E8F0;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+.hero-cta {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.trust-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    color: var(--color-accent);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Features */
+.features {
+    background-color: var(--color-white);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background: var(--color-bg);
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-border);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-accent);
+}
+
+.feature-card .icon-box {
+    width: 60px;
+    height: 60px;
+    background: rgba(16, 185, 129, 0.1);
+    /* Mint specific light bg */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--color-accent);
+    margin-bottom: 1.5rem;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.feature-card p {
+    color: var(--color-text-light);
+    margin-bottom: 1.5rem;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+    color: var(--color-primary-light);
+}
+
+.feature-list li i {
+    color: var(--color-accent);
+    font-size: 1.2rem;
+}
+
+/* Trust Signals */
+.trust-signals {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 4rem 0;
+}
+
+.trust-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trust-item i {
+    font-size: 3rem;
+    color: var(--color-accent);
+}
+
+.trust-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.trust-item p {
+    color: #94A3B8;
+    font-size: 0.9rem;
+}
+
+/* Reviews */
+.reviews-slider-container {
+    overflow-x: auto;
+    padding: 1rem 0 2rem 0;
+    /* Hide scrollbar but keep functionality */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.reviews-slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+.reviews-slider {
+    display: flex;
+    gap: 2rem;
+    width: fit-content;
+    padding: 0 1rem;
+}
+
+.review-card {
+    background: var(--color-white);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    min-width: 350px;
+    max-width: 350px;
+    border: 1px solid var(--color-border);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.stars {
+    color: #F59E0B;
+    /* Amber for stars */
+}
+
+.review-date {
+    font-size: 0.875rem;
+    color: #9CA3AF;
+}
+
+.review-text {
+    font-style: italic;
+    color: var(--color-primary-light);
+    margin-bottom: 1.5rem;
+    min-height: 80px;
+}
+
+.review-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.author-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info strong {
+    display: block;
+    color: var(--color-primary);
+}
+
+.author-info span {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+}
+
+/* Pricing */
+.pricing {
+    background-color: var(--color-white);
+}
+
+.pricing-table-wrapper {
+    overflow-x: auto;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-white);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    min-width: 600px;
+    /* Force scroll on very small screens */
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid var(--color-border);
+}
+
+.pricing-table th {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: var(--color-bg);
+}
+
+.highlight-cell {
+    color: var(--color-accent-dark);
+    font-weight: 700;
+}
+
+.pricing-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    text-align: right;
+}
+
+/* FAQ */
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 1.5rem 0;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+}
+
+.faq-item.active .faq-question i {
+    transform: rotate(180deg);
+}
+
+.faq-answer p {
+    padding-bottom: 1.5rem;
+    color: var(--color-text-light);
+}
+
+/* Footer & Contact */
+.footer {
+    background-color: var(--color-primary);
+    color: #94A3B8;
+    padding-top: 5rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.footer-logo {
+    color: var(--color-white);
+    margin-bottom: 1.5rem;
+}
+
+.footer-desc {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.footer-form-wrapper {
+    background: var(--color-white);
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+    color: var(--color-text-main);
+}
+
+.footer-form-wrapper h3 {
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.footer-form-wrapper p {
+    color: var(--color-text-light);
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.contact-form input,
+.contact-form select {
+    width: 100%;
+    padding: 0.875rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
+    outline: none;
+    border-color: var(--color-accent);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem 0;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    color: #94A3B8;
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: var(--color-white);
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* Hidden off-screen */
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    transition: right 0.3s ease;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-menu-overlay.active {
+    right: 0;
+}
+
+.mobile-menu {
+    width: 80%;
+    max-width: 300px;
+    height: 100%;
+    background: var(--color-white);
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-menu-btn {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.mobile-nav-list {
+    margin-bottom: 2rem;
+}
+
+.mobile-nav-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--color-border);
+    font-weight: 500;
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .hero-bg {
+        background-position: center;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --spacing-lg: 2rem;
+        --spacing-xl: 3rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .section-desc {
+        font-size: 1rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .hero-cta .btn {
+        width: 100%;
+    }
+
+    .trust-badge {
+        justify-content: center;
+    }
+
+    .trust-grid {
+        gap: 1.5rem;
+    }
+
+    .trust-item {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pricing-table th,
+    .pricing-table td {
+        padding: 0.75rem;
+        font-size: 0.85rem;
+    }
+
+    .footer-form-wrapper {
+        padding: 1.5rem;
+    }document.addEventListener('DOMContentLoaded', () => {
+    
+    /* =========================================
+       Mobile Menu Toggle
+       ========================================= */
+    const menuBtn = document.querySelector('.mobile-menu-btn');
+    const closeBtn = document.querySelector('.close-menu-btn');
+    const menuOverlay = document.querySelector('.mobile-menu-overlay');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-list a');
+
+    function toggleMenu() {
+        menuOverlay.classList.toggle('active');
+        document.body.style.overflow = menuOverlay.classList.contains('active') ? 'hidden' : '';
+    }
+
+    menuBtn.addEventListener('click', toggleMenu);
+    closeBtn.addEventListener('click', toggleMenu);
+    
+    // Close menu when clicking a link
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', toggleMenu);
+    });
+
+    // Close menu when clicking outside
+    menuOverlay.addEventListener('click', (e) => {
+        if (e.target === menuOverlay) {
+            toggleMenu();
+        }
+    });
+
+    /* =========================================
+       Sticky Header
+       ========================================= */
+    const header = document.querySelector('.header');
+    
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    /* =========================================
+       FAQ Accordion
+       ========================================= */
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        
+        question.addEventListener('click', () => {
+            // Close other open items
+            faqItems.forEach(otherItem => {
+                if (otherItem !== item && otherItem.classList.contains('active')) {
+                    otherItem.classList.remove('active');
+                }
+            });
+
+            // Toggle current item
+            item.classList.toggle('active');
+        });
+    });
+
+    /* =========================================
+       Smooth Scroll for Anchor Links
+       ========================================= */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                const headerHeight = document.querySelector('.header').offsetHeight;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    /* =========================================
+       Contact Form Handler (Demo)
+       ========================================= */
+    const contactForm = document.querySelector('.contact-form');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Simulate form submission
+            const btn = contactForm.querySelector('button');
+            const originalText = btn.textContent;
+            
+            btn.textContent = '전송 중...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                alert('견적 요청이 성공적으로 전송되었습니다!\n곧 담당자가 연락드리겠습니다.');
+                contactForm.reset();
+                btn.textContent = originalText;
+                btn.disabled = false;
+            }, 1500);
+        });
+    }
+});
+
+}
