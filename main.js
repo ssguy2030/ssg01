@@ -5,7 +5,7 @@ const body = document.body;
 const currentTheme = localStorage.getItem('theme');
 if (currentTheme === 'dark') {
   body.classList.add('dark-mode');
-  themeToggle.textContent = 'Light Mode';
+  themeToggle.textContent = '라이트 모드로 전환';
 }
 
 themeToggle.addEventListener('click', () => {
@@ -14,9 +14,9 @@ themeToggle.addEventListener('click', () => {
   let theme = 'light';
   if (body.classList.contains('dark-mode')) {
     theme = 'dark';
-    themeToggle.textContent = 'Light Mode';
+    themeToggle.textContent = '라이트 모드로 전환';
   } else {
-    themeToggle.textContent = 'Dark Mode';
+    themeToggle.textContent = '다크 모드로 전환';
   }
   
   localStorage.setItem('theme', theme);
